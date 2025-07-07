@@ -1,10 +1,28 @@
 # voice-ai-admissions-counselor
+
 A voice AI agent built for an admissions office, capable of answering student questions using a tool-based architecture.
 
+This repository contains the source code and documentation for a voice AI agent built for a university admissions office. The agent can answer prospective student questions about courses, fees, and program durations.
 
-### README: Admissions Counselor Voice AI Agent
+## 🚀 Live Demo
 
-**Submitted by: Ankit Singh**
+You can interact with the live version of this agent here:
+*   **[Test the Voice AI Agent](https://vapi.ai?demo=true&shareKey=ce9f629b-9256-46f4-9604-a1a5f1621a9a&assistantId=1761dbb9-8e6b-48ce-a6ab-ff80647d64aa)**
+
+## 🌟 Key Features
+
+*   **Natural Conversation:** Understands user questions and handles follow-ups.
+*   **Tool-Based Architecture:** Uses a Python (Flask) backend tool to retrieve accurate course data.
+*   **Resilient Design:** Gracefully handles ambiguous queries and out-of-scope questions.
+*   **Built with a Prompt-First Approach:** The agent's logic, personality, and safety guardrails are defined by a comprehensive system prompt.
+
+## 🛠️ Tech Stack
+
+*   **Voice Platform:** Vapi
+*   **LLM:** Llama 3 8B (via Together AI)
+*   **Backend Tool Server:** Python, Flask
+*   **Hosting:** Replit
+
 
 #### 1. Prompt & Conversation Flow
 
@@ -32,3 +50,6 @@ To ensure low latency and simplicity, the course data table was stored as an in-
 
 ---
 **A Note on Performance:** This agent is deployed entirely on free-tier services. As a result, you may experience a minor "cold start" latency on the first query if the agent has been idle. This is a known characteristic of the serverless architecture. Subsequent interactions will be significantly faster.
+
+
+Created With Vibes & ❤️ by Ankit Singh
